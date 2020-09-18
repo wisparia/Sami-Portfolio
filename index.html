@@ -1,0 +1,122 @@
+<!-- The index, or homepage of the site with -->
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sami Sully Portfolio - Home Page</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Adding in bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- Link tot he CSS stylesheet -->
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <!-- Navbar at the top of the page using bootstrap-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><h2>Sami Sully</h2></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- The links that align at the top right of the page -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html"
+                >About <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- This is the container that holds the main content of the page -->
+    <div class="container">
+      <h1>About Me</h1>
+      <hr />
+      <img
+        src="./assets/icon.png"
+        class="img-fluid float-left"
+        alt="A photo of me, Sami Sully"
+      />
+      <p>
+        Hello! I'm Sami, an artist and aspiring web developer from Washington
+        State. I currently live just outside the Seattle area with my fiance,
+        and our tabby cat named Kirby. With the current change in the world, it
+        gave me the push to jump into a field that I've always been interested
+        in but never felt like the 'right' time to pursue. With a background in
+        the arts and graphic design I felt it would be a great tie in to my
+        current lifestyle and passions.
+      </p>
+      <p>
+        Currently still working on getting more and more proficient with web
+        coding and getting to learn different languages and styles, but have
+        found that I am most interested in the graphic layout and formatting
+        aspect! Excited to keep working through my bootcamp classes to learn
+        more and get even more comfortable creating fun, visually attractive,
+        and interactive pages.
+      </p>
+      <!-- Buttons to social media -->
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-3">
+            <a class="btn btn-primary center" href="https://www.linkedin.com/in/sami-sully-1726941b3/" role="button">LinkedIn</a>
+          </div>
+          <div class="col-3">
+            <a class="btn btn-primary center" href="https://github.com/SamiSully" role="button">Github</a>
+          </div>
+          <div class="col-3">
+            <a class="btn btn-primary center" href="https://www.instagram.com/wisparia/" role="button">Instagram</a>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
+    <!-- This places the footer on the page with the credits-->
+    <footer>© Sami Sully</footer>
+
+    <!-- This adds in the Javascript portion of bootstrap to the page so it will load correctly -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

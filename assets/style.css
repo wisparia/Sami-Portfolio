@@ -1,0 +1,69 @@
+/* This is the tiled background image for the site */
+body {
+  background-image: url("./bg_pattern.png");
+  background-repeat: repeat;
+}
+
+/* This changes the padding, margin, and color of the main content boxes within the site */
+.container {
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  align-content: center;
+}
+
+/* This changes the image padding and width of images on the site for contistancy */
+.container img {
+  display: block;
+  padding: 1rem;
+  width: 12rem;
+  height: auto;
+}
+
+/* This changes the color and font-face of the headers used within the main content boxes */
+h1 {
+  color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+/* This changes the color and text of the main navigation text header */
+h2 {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #4aaaa5;
+}
+
+/* Changes the font and color of the button on the contact page */
+.btn {
+  color: white;
+  background-color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 1rem;
+}
+
+/* Changes the color of the button on the Contact page when hovering over it */
+.btn:hover {
+  background-color: teal;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This is the attributes for the footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #666;
+  border-top: #4aaaa5 solid;
+  border-width: 5px;
+  text-align: center;
+  margin-top: 10px;
+  color: #FFF;
+}
