@@ -5,13 +5,14 @@ background: linear-gradient(90deg, rgba(199,199,219,1) 0%, rgba(191,244,255,1) 5
 }
 
 .navbar {
+  margin-bottom: 20px;
   background-color: #BCB4C4;
 }
 
 /* This changes the padding, margin, and color of the main content boxes within the site */
 .content {
   padding: 1rem;
-  margin: 1rem;
+  margin: auto;
   background-color: white;
   align-content: center;
   border-radius: 25px;

@@ -23,71 +23,111 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-       <!-- Navbar at the top of the page-->
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><h2>Sami Sully</h2></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- The links that align at the top right of the page -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- Navbar at the top of the page-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><h2>Sami Sully</h2></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- The links that align at the top right of the page -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
           <ul class="navbar-nav ml-auto">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html"
-                  >About</a
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./portfolio.html"
+                >Portfolio<span class="sr-only">(current)</span></a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Where to Find Me
+              </a>
+
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a
+                  class="dropdown-item"
+                  href="https://www.linkedin.com/in/sami-sully-1726941b3/"
+                  >LinkedIn</a
                 >
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-            </ul>
+                <a class="dropdown-item" href="https://github.com/SamiSully"
+                  >Github</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
           </ul>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- The container that holds the main content of the page -->
+    <div class="container">
+      <!-- The bootstrap grid in order to hold responsive images -->
+      <div class="row">
+        <h1>Portfolio</h1>
+        <hr />
+      </div>
+      <div class="row">
+        <div class="col-md-6 contentPortfolio">
+          <img
+            src="./assets/DailyPlannerDemo.png"
+            class="img-fluid center portfolioImage"
+            alt="Responsive image"
+          />
+          <div class="githubLink"><button>Test</button></div>
         </div>
-      </nav>
-
-<!-- The container that holds the main content of the page -->
-  <div class="container">
-    <!-- The bootstrap grid in order to hold responsive images -->
-    <div class="row">
-      <h1>Portfolio</h1>
-      <hr>
+        <div class="col-md-6 contentPortfolio">
+          <img
+            src="./assets/JavascriptCodingQuiz.png"
+            class="img-fluid center portfolioImage"
+            alt="Responsive image"
+          />
+          <div class="githubLink">test!</div>
+        </div>
+        <div class="col-md-6 contentPortfolio">
+          <img
+            src="./assets/PasswordGeneratorDemo.png"
+            class="img-fluid center portfolioImage"
+            alt="Responsive image"
+          />
+          <div class="githubLink"><div class="text">John Doe</div></div>
+        </div>
+        <div class="col-md-6 contentPortfolio">
+          <img
+            src="./assets/PasswordGeneratorDemo.png"
+            class="img-fluid center portfolioImage"
+            alt="Responsive image"
+          />
+          <div class="githubLink"><div class="text">John Doe</div></div>
+        </div>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-md-3 content">
-        <img src="./assets/DailyPlannerDemo.png" class="img-fluid center portfolioImage" alt="Responsive image">
-        <div class="githubLink"><button>Test</button></div>
-      </div>
-      <div class="col-md-3 content">
-        <img src="./assets/JavascriptCodingQuiz.png" class="img-fluid center portfolioImage" alt="Responsive image">
-        <div class="githubLink">test!</div>
-      </div>
-      <div class="col-md-3 content">
-        <img src="./assets/PasswordGeneratorDemo.png" class="img-fluid center portfolioImage" alt="Responsive image">
-        <div class="githubLink"><div class="text">John Doe</div></div>
-      </div>
-      <div class="col-md-3 content">
-        <img src="./assets/PasswordGeneratorDemo.png" class="img-fluid center portfolioImage" alt="Responsive image">
-        <div class="githubLink"><div class="text">John Doe</div></div>
-      </div>
-    </div>
-    
-  </div>
 
-
-
-<!-- The footer on the page with the credits -->
+    <!-- The footer on the page with the credits -->
     <footer>© Sami Sully</footer>
 
     <!-- The Javascript portion of bootstrap to the page so it will load correctly -->
