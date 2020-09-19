@@ -4,7 +4,7 @@
 
 
 ## Demo
-(https://samisully.github.io/responsive-portfolio/)
+(https://samisully.github.io/Sami-Portfolio/)
 
 ## Description 
 
