@@ -18,11 +18,17 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
     <!-- Navbar at the top of the page-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#"><h2>Sami Sully</h2></a>
       <button
         class="navbar-toggler"
@@ -45,6 +51,32 @@
             <li class="nav-item">
               <a class="nav-link" href="./portfolio.html">Portfolio</a>
             </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Where to Find Me
+              </a>
+
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a
+                  class="dropdown-item"
+                  href="https://www.linkedin.com/in/sami-sully-1726941b3/"
+                  >LinkedIn</a
+                >
+                <a class="dropdown-item" href="https://github.com/SamiSully"
+                  >Github</a
+                >
+              </div>
+            </li>
             <li class="nav-item active">
               <a class="nav-link" href="./contact.html"
                 >Contact<span class="sr-only">(current)</span></a
@@ -61,40 +93,13 @@
         <div class="col-sm-12 col-md-10 col-lg-8">
           <h1>Contact</h1>
           <hr />
+          <p>Got a project in mind? Dont hesitate to reach out!</p>
           <!-- The contact form -->
-          <form>
-            <!-- form for name input -->
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Name</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Name"
-              />
-            </div>
-            <!-- form for email input -->
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Email"
-              />
-            </div>
-            <div class="form-group">
-              <!-- form for message input -->
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="4"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+          <h2><i class="far fa-envelope"></i>Email:</h2>
+          <li>samilsully@gmail.com</li>
+          <h2><i class="fas fa-phone"></i>Phone:</h2>
+          <li>206-949-1433</li>
+
         </div>
       </div>
     </div>

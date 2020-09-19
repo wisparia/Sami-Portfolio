@@ -19,12 +19,18 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
     <!-- Link to the CSS stylesheet -->
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
     <!-- Navbar at the top of the page-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#"><h2>Sami Sully</h2></a>
       <button
         class="navbar-toggler"
@@ -87,42 +93,149 @@
     <!-- The container that holds the main content of the page -->
     <div class="container">
       <!-- The bootstrap grid in order to hold responsive images -->
-      <div class="row">
+      <div class="row content">
         <h1>Portfolio</h1>
         <hr />
       </div>
       <div class="row">
-        <div class="col-md-6 contentPortfolio">
-          <img
-            src="./assets/DailyPlannerDemo.png"
-            class="img-fluid center portfolioImage"
-            alt="Responsive image"
-          />
-          <div class="githubLink"><button>Test</button></div>
+        <div class="col-md-6">
+          <div class="card text-center">
+            <div class="card-header">
+              <h5>Work Day Scheduler</h5>
+            </div>
+            <div class="card-body">
+              <img
+                class="card-img-top"
+                src="./assets/DailyPlannerDemo.png"
+                alt="Card image cap"
+              />
+              <hr />
+              <p class="card-text">
+                A single page javascript and jquery page that allows you to
+                record tasks based on each hour. It generates the tinkeblocks
+                dynamically and updates based on the hour in order to mark past
+                events in one color, highlight the current hour, and have the
+                future events in another color for easier readability.
+              </p>
+              <a
+                class="btn btn-primary center"
+                href="https://github.com/SamiSully/Daily-Task-Planner"
+                role="button"
+                >Code</a
+              >
+              <a
+                class="btn btn-primary center"
+                href="https://samisully.github.io/Daily-Task-Planner/"
+                role="button"
+                >Live Demo</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="col-md-6 contentPortfolio">
-          <img
-            src="./assets/JavascriptCodingQuiz.png"
-            class="img-fluid center portfolioImage"
-            alt="Responsive image"
-          />
-          <div class="githubLink">test!</div>
+        <div class="col-md-6">
+          <div class="card text-center">
+            <div class="card-header">
+              <h5>Javascript Coding Quiz</h5>
+            </div>
+            <div class="card-body justify-content-center">
+              <img
+                class="card-img-top portfolioImage"
+                src="./assets/JavascriptCodingQuiz.png"
+                alt="Card image cap"
+              />
+              <hr />
+              <p class="card-text">
+                A single page javascript application that will generate 5
+                questions to ask the user about javascript. When the user starts
+                the quiz, the timer starts, and the quiz will end either when
+                the user has awnsered the last question, or the timer has
+                reached zero. The user then can enter their initials which are
+                then stored in their local storage.
+              </p>
+              <a
+                class="btn btn-primary center"
+                href="https://github.com/SamiSully/Coding-Quiz"
+                role="button"
+                >Code</a
+              >
+              <a
+                class="btn btn-primary center"
+                href="https://samisully.github.io/Coding-Quiz/"
+                role="button"
+                >Live Demo</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="col-md-6 contentPortfolio">
-          <img
-            src="./assets/PasswordGeneratorDemo.png"
-            class="img-fluid center portfolioImage"
-            alt="Responsive image"
-          />
-          <div class="githubLink"><div class="text">John Doe</div></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card text-center">
+            <div class="card-header">
+              <h5>Password Generator</h5>
+            </div>
+            <div class="card-body justify-content-center">
+              <img
+                class="card-img-top portfolioImage"
+                src="./assets/PasswordGeneratorDemo.png"
+                alt="Card image cap"
+              />
+              <hr />
+              <p class="card-text">
+                A single page javascript application that will generate a
+                random, secure password between 8 characters and 128 characters
+                in length based on the different types of characters that the
+                user will be prompted to choose between.
+              </p>
+              <a
+                class="btn btn-primary center"
+                href="https://github.com/SamiSully/password-generator"
+                role="button"
+                >Code</a
+              >
+              <a
+                class="btn btn-primary center"
+                href="https://samisully.github.io/password-generator/"
+                role="button"
+                >Live Demo</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="col-md-6 contentPortfolio">
-          <img
-            src="./assets/PasswordGeneratorDemo.png"
-            class="img-fluid center portfolioImage"
-            alt="Responsive image"
-          />
-          <div class="githubLink"><div class="text">John Doe</div></div>
+        <div class="col-md-6">
+          <div class="card text-center">
+            <div class="card-header">
+              <h5>CityZen</h5>
+            </div>
+            <div class="card-body justify-content-center">
+              <img
+                class="card-img-top portfolioImage"
+                src="./assets/CityZenDemo.png"
+                alt="Card image cap"
+              />
+              <hr />
+              <p class="card-text">
+                An application using two APIs(Realtor and Adzuna) for the user
+                to search for a new job and housing at the same time. It is
+                built so the user can search where they would like to live, and
+                what job they want to work, and will populate with jobs, and
+                rental properties in the area that they could ptentially afford
+                with that jobs salary.
+              </p>
+              <a
+                class="btn btn-primary center"
+                href="https://github.com/rajdeep24/CityZen"
+                role="button"
+                >Code</a
+              >
+              <a
+                class="btn btn-primary center"
+                href="https://rajdeep24.github.io/CityZen/"
+                role="button"
+                >Live Demo</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
